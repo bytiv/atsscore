@@ -60,7 +60,7 @@ curl -X POST http://localhost:5000/calculate-ats-only \
   -d '{"job_description":"Python developer with Django experience","resume_text":"Experienced Python developer with Django and Flask"}'
 ```
 
-## Step 3: Deploy to Render (Free)
+## Step 3: Deploy to railway (Free)
 
 1. Create a GitHub repository with all files:
    - app.py
@@ -68,7 +68,7 @@ curl -X POST http://localhost:5000/calculate-ats-only \
    - resume_classifier.pkl
    - tfidf_vectorizer.pkl
 
-2. Go to [render.com](https://render.com) and sign up
+2. Go to [railway.com](https://render.com)](https://railway.com/) and sign up
 
 3. Create a new Web Service:
    - Connect your GitHub repository
